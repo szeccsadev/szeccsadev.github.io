@@ -41,13 +41,20 @@ $(document).ready(function () {
     includeHTML();
 });
 
-// Jquery dropdown menu with slide effect
+// jQuery dropdown menu with slide effect
 $(document).ready(function () {
     $('.hamburger').click(function () {
         $(this).toggleClass('active');
         $('.dropdown').slideToggle(300);
     });
+
+    // Close the menu if anything is pressed
+    $('.dropdown a').click(function () {
+        $('.dropdown').slideUp(300);
+        $('.hamburger').removeClass('active');
+    });
 });
+
 
 // Function to handle screen width changes
 function checkScreenWidth() {
@@ -56,8 +63,8 @@ function checkScreenWidth() {
 
 window.addEventListener('resize', checkScreenWidth);
 
-// Script to display device details
-$(document).ready(function () {
+// Script to display device details (No longer needed.)
+/*$(document).ready(function () {
     function getBrowserAndDeviceDetails() {
         var userAgent = navigator.userAgent;
         var browserName, deviceType;
@@ -94,4 +101,4 @@ $(document).ready(function () {
     }
     
     $("#browserDetails").text(getBrowserAndDeviceDetails());
-});
+});*/
