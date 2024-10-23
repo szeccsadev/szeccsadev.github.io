@@ -1,0 +1,11 @@
+div.container {
+    display: none !important;
+}
+
+p#browserUpdateNotice {
+    display: block !important;
+}
+
+p#browserDetails {
+    display: block !important;
+}

@@ -63,8 +63,8 @@ function checkScreenWidth() {
 
 window.addEventListener('resize', checkScreenWidth);
 
-// Script to display device details (No longer needed.)
-/*$(document).ready(function () {
+// Script to display device details
+$(document).ready(function () {
     function getBrowserAndDeviceDetails() {
         var userAgent = navigator.userAgent;
         var browserName, deviceType;
@@ -101,4 +101,4 @@ window.addEventListener('resize', checkScreenWidth);
     }
     
     $("#browserDetails").text(getBrowserAndDeviceDetails());
-});*/
+});

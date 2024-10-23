@@ -33,6 +33,10 @@
         <link type="text/css" href="/assets/css/responsive.css" rel="stylesheet" media="screen"/>
         <link rel="alternate" type="application/rss+xml" title="RSS - Szeccsa" href="/assets/rss/rss.xml"/>
 
+        <!--[if lte IE 9]>
+		<script src="/assets/fallback/css/fallback.css"></script>
+		<![endif]-->
+
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script type="text/javascript" src="/assets/js/script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js"></script>
@@ -41,6 +45,8 @@
         </script>
     </head>
     <body>
+        <p id="browserUpdateNotice">Your browser is not supported by this website. Please consider updating to a modern, more secure browser.</p>
+        <p id="browserDetails"></p>
         <noscript>
             <p>This website requires JavaScript to function properly. Please enable JavaScript in your browser settings.</p>
         </noscript>
@@ -49,7 +55,7 @@
                 <div class="smallmenu">
                     <a href="/" title="Home" class="logo"><span>Szeccsa</span></a>
                     <nav class="links">
-                        <a href="#about-me" title="Learn facts about Me" class="nav-btn">About</a>
+                        <a href="#about-me" title="Learn facts about me" class="nav-btn">About</a>
                         <a href="#pc-specs" title="Check out what's inside the box" class="nav-btn">PC Specs</a>
                         <a href="#projects" title="Check out my latest projects" class="nav-btn">Projects</a>
                         <a href="https://discord.com/users/1227980915683364955" target="_blank" title="Add me as a friend on Discord" class="nav-btn"><i class="fa-brands fa-discord"></i></a>
@@ -65,7 +71,7 @@
             </header>
             <div class="dropdown" style="display: none;">
                 <nav class="dropdown-menu">
-                    <a href="#about-me" title="Learn facts about Me" class="nav-btn">About</a>
+                    <a href="#about-me" title="Learn facts about me" class="nav-btn">About</a>
                     <a href="#pc-specs" title="Check out what's inside the box" class="nav-btn">PC Specs</a>
                     <a href="#projects" title="Check out my latest projects" class="nav-btn">Projects</a>
                     <div class="socialcontainer">
@@ -90,7 +96,7 @@
             </div>
             <div class="about">
                 <div class="center">
-                    <h2 id="about-me" class="headline">About Me</h2>
+                    <h2 id="about-me" class="headline">About me</h2>
                     <img class="youhuu" src="/assets/i/Youhuu/Idle.svg" alt="Youhuu" draggable="false" title="Youhuu the racka sheep">
                     <p>My name is Kevin Király. I was born on 10th February 2007 in Hungary. I started school in 2014 and I’m still studying. I’m currently in Class 11 in high-school studying as a pastry chef, even if I’m not planning to work after school in this job. My primary language is Hungarian and the secondary is English, I’m learning English since 2014, so big achevement. After school I’m planning to go and work as a BPA (Border Patrol Agent) at the Serbian border of the country, since I’m very close to it, and because the good salary. I do love tech, developing and playing videogames. I make websites in HTML, CSS and JS to close friends or relatives who needs a website for their business, promoting themselves or just for fun. I made this website for myself after using captures from Archive.org for a year. I did a lot of polishing  optimalisation on these websites to meet my needs but it was impossible due the outdated code. So I wrote this one for myself. I often go for cycling, running or to the gym to do some workout. So that’s my story.</p>
                     <h2 class="headline">The mascot; Youhuu</h2>
@@ -195,7 +201,7 @@
             <div class="songs">
                 <div class="center">
                     <h2 class="headline">Music Section</h2>
-                    <iframe style="border-radius:10px" src="https://open.spotify.com/embed/track/52LJ3hyknOijCrE5gCD0rE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5vmRQ3zELMLUQPo2FLQ76x?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     <iframe style="border-radius:10px" src="https://open.spotify.com/embed/track/4356Typ82hUiFAynbLYbPn?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     <iframe style="border-radius:10px" src="https://open.spotify.com/embed/track/2bJvI42r8EF3wxjOuDav4r?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>

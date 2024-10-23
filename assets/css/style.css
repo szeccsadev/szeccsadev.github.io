@@ -367,3 +367,11 @@ p.footnote {
     font-size: 10px;
     color: #FFF;
 }
+
+p#browserUpdateNotice {
+    display: none;
+}
+
+p#browserDetails {
+    display: none;
+}
