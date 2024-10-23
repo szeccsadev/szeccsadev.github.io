@@ -377,10 +377,16 @@ p#browserDetails {
 }
 
 p.censored {
+    display: initial;
     filter: blur(4px);
-    transition: filter 0.2s ease;
+    transition: filter 0.1s ease;
 }
 
 p.censored:hover {
     filter: blur(0); 
+    cursor: progress;
+}
+
+p#youhuu {
+    display: initial;
 }
