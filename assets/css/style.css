@@ -261,6 +261,20 @@ div.container div.projects div.project.item div.new {
     margin-top: -25px;
     margin-left: -20px;
     background-image: url(/assets/i/badges/new.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
+div.container div.projects div.project.item div.alert {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -20px;
+    background-image: url(/assets/i/badges/alert.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     z-index: 2;
 }
 
