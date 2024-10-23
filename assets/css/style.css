@@ -375,3 +375,12 @@ p#browserUpdateNotice {
 p#browserDetails {
     display: none;
 }
+
+p.censored {
+    filter: blur(4px);
+    transition: filter 0.3s ease;
+}
+
+p.censored:hover {
+    filter: blur(0); 
+}
