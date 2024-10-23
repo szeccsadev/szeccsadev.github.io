@@ -378,7 +378,7 @@ p#browserDetails {
 
 p.censored {
     filter: blur(4px);
-    transition: filter 0.3s ease;
+    transition: filter 0.2s ease;
 }
 
 p.censored:hover {
