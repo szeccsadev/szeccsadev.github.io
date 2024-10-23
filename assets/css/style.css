@@ -384,7 +384,7 @@ p.censored {
 
 p.censored:hover {
     filter: blur(0); 
-    cursor: progress;
+    cursor: pointer;
 }
 
 p#youhuu {
